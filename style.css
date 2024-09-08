@@ -1,0 +1,329 @@
+/* % daale pr parent pr depend krta hai vh/vw depend nhi krta  */
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#main
+{
+    height: 100%;
+    width: 100%;
+   
+    
+
+}
+
+
+
+#header
+{
+   height: 10%;   /* % or vh*/
+   width: 100%;  /* % or vw*/
+   
+   position: fixed;    /* position of header is fixed every time */
+   display: flex;                  /* mere baad saarri cheeze start se suru hongi */
+   align-items: center;
+   justify-content: space-around; /*if not this then use margin in all the div inside header ,this provides equal spacing */
+   background-color: white;
+  
+
+}
+   
+
+
+/*ye main header k peeche h  */
+#fakeheader
+{
+   height: 10%;   
+    width: 100%; 
+    
+}
+
+#logo
+{
+   
+    height: 70%;
+    margin: 20px;
+   
+    
+}
+
+#logo img
+{
+
+      width: 100%;
+      height: 100%;
+    object-fit: cover;
+
+}
+
+
+.text
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(11, 11, 114);
+    display: flex;  
+}
+
+
+.text:hover
+{
+    color: rgb(125, 125, 159); 
+}
+
+
+
+#contact
+{
+    color: rgb(5, 5, 92);
+    font-weight: lighter;
+}
+
+.icons
+{
+   padding: 10px;  
+   border-radius: 50%;
+}
+
+.icons:hover
+{
+    background-color: lightblue; 
+}
+
+#login
+{
+
+    
+    display: flex;
+    border-radius: 50px;
+    padding: 10px;
+
+}
+
+
+#login:hover
+{
+    background-color: lightblue; 
+}
+
+#try
+{
+   background-color: green;
+   padding: 10px 20px;
+   color: white;
+}
+
+
+
+#try:hover
+{
+   background-color: rgb(27, 88, 27);
+}
+
+
+
+
+
+
+#page1
+{
+    height: 90%;
+    width: 100%;
+    
+}
+
+#strip
+{
+    height: 8%;
+    width: 100%;
+    background-color: rgb(23, 23, 111);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#strip a
+{
+
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#content
+{
+    height: 76%;
+    width: 100;
+    display: flex;
+    align-items: center;
+
+    
+
+}
+
+
+#box1
+{
+
+    width: 50%;
+    height: 90%;
+    background-color: white;
+    margin-left: 20px;
+    
+}
+
+#box1 h1
+{
+
+color: rgb(7, 7, 69);
+font-size: 50px;
+margin: 50px 20px;
+
+
+}
+
+
+
+#box1 p
+{
+
+color: rgb(7, 7, 69);
+font-size: xx-large;
+margin: 20px;
+
+
+}
+
+
+#btns
+{
+    display: flex;
+
+}
+
+#btns1
+{
+    width: 22%;
+    margin: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+#btns1:hover
+{
+    background-color: rgb(85, 85, 152);
+}
+
+#btns2
+{
+    width: 22%;
+    margin: 20px;
+   background-color: white;
+   color: blue;
+   padding: 10px 20px;
+   border: 3px solid lightblue;
+   text-align: center;
+   border-radius: 5px;
+}
+  
+
+#btns2:hover
+{
+    background-color: rgb(85, 85, 152);
+    color: rgb(4, 4, 59);
+    border-color: rgb(4, 4, 59);
+}
+
+#box2
+{
+
+    width: 50%;
+    height: 90%;
+    background-color: gray;
+    margin-right: 20px;
+    position: relative;
+    
+    
+}
+
+
+
+
+#box2 img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+
+
+
+#box2 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Keeps video aspect ratio while covering */
+    opacity: 0.7;/* Lowers the contrast; adjust as needed */
+    z-index: 1; /* Ensures video is above the image */
+    border-radius: 10px;
+}
+
+
+
+
+
+
+#lastline
+{
+    width: 100%;
+    height: 16%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(8, 8, 103);
+    
+
+}
+
+#lastline h1
+{
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+#page2
+{
+    height: 90%;
+    width: 100%;
+   
+}
+
+
+
